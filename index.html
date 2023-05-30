@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/port/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div>
+                    <a href="./index.html" class="logo-container"><img src="images/userAsset/NavLogo.png" alt="" class="logo">
+                        <div class="logo-text">havesh Kushwaha</div></a>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#" onclick="openModal()" class="btn-share" >Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#skills">Education</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                    
+                </div>
+            </div>
+
+            <!-- Modal Component  -->
+            <div class="modal">
+                <div class="modal-header">
+                    <h1>Projects</h1>
+                    <div>
+                        <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3></h3>
+                    <div class="icon-container">
+                        <a href="./project/index.html"><button class="btn-share btn-card">Mini Projects</button></a>
+                        <!-- <button class="btn-share btn-card">Mini Projects</button> -->
+                        <button class="btn-share btn-card">Major Projects</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Component Close  -->
+            <div class="overlay" onclick="closeModal()"></div>
+
+            <!-- Hero-Section -->
+            <div class="hero-section">
+                <div class="absolute faded-text">Bhavesh Kushwaha</div>
+                <div class="hero-section-left">
+                    <div class="hero-section-heading ">Hi!!<img alt="waving-hand" src="https://jigarsable.vercel.app/_next/static/media/waving-hand.1da6fc7a.gif" width="40" height="40" decoding="async" data-nimg="1" loading="lazy" style="color: transparent;"></div>
+
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+                        I am a Masters graduate and here is my personal website. Here you'll learn about my journey
+                        as
+                        an engineering student and get some contrast on my projects.
+                    </div>
+                    <button class="btn-pink" id="btn"> <a href="https://drive.google.com/drive/folders/1APQR8H3Z6t5OVBpk92hOyCzVU7v0q442?usp=share_link" target="_blank">Hire Me</a></button>
+                </div>
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dot">
+                        <img src="images/userAsset/dots.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="images/userAsset/cube.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="images/userAsset/circle.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="images/userAsset/zigzags.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="images/userAsset/plus.png" alt="">
+                    </div>
+                    <div class="user-image">
+                        <img src="images/userAsset/UserImage.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project-section  -->
+        <div class="project-section">
+            <h2 class="page-header">Projects</h2>
+            <div class="project-container">
+
+
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vite.png" alt="" />
+                        </div>
+                        <h2 class="project-heading">BroStay - Holiday Homes</h2>
+                        <div class="project-subHeading">BroStay is a peer-to-peer online marketplace that allows people to rent out their homes or apartments to travelers for short-term stays.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project"><a href="https://docs.google.com/document/d/1uGLHfxOlfeRWOdon4IZuwtEOWpwxNT7R/edit?usp=share_link&ouid=103562216364336574267&rtpof=true&sd=true">Read More</a></button>
+                            <a href="https://github.com/BhavKush/BroStay_Web-Application">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/api.svg" alt="" />
+                        </div>
+                        <h2 class="project-heading">Weather Forecasting</h2>
+                        <p class="project-sub-heading">
+                            A platform to find Weather infromation of selected location either <br> by GPS or manually entered location.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project"> <a href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day4/Weather%20App">Read More</a> </button>
+                            <a href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day4/Weather%20App">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://bhavkush.github.io/50DaysOfWebDevelopment/Day4/Weather%20App/index.html">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+
+                        <h2 class="project-heading">Isha Tattva</h2>
+                        <p class="project-sub-heading">
+                            A Website for interior designer to showcase her works and samples
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+                        <h2 class="project-heading">Granit</h2>
+                        <p class="project-sub-heading">
+                            A architectural website to plan your building or home (Hebrew
+                            Language)
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- Skill-Sectionn  -->
+        <div id="skills" class="skills-container container">
+            <div class="skill-fade-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                    <br />
+                    MyTech Stack
+                </h2>
+
+                <div class="skill-subHeading">
+                    <p>
+                        Hello, My name is Bhavesh Kushwaha, and I am from Aligarh, Uttar Pradesh. I am currently pursuing a Master of Computer Application. As a computer science student, I have gained a strong foundation in programming languages such as Java and C++, and also in Web development stacks like MERN.
+                    </p>
+                    <p>
+                        In addition to my technical skills, I have also developed excellent problem-solving and critical thinking abilities through my coursework and project work. During my undergraduate studies, I had completed a bunch of mini projects and one group major projects.
+                    </p>
+                    <p>
+                        In my free time, I enjoy keeping up with the latest advancements in technology and learning new programming languages. I am passionate about pursuing a career in software engineering and am excited about the opportunity to apply my skills and knowledge to contribute to the success of an organization.
+                    </p>
+                    <p>
+                        Thank you for visiting my Personal Website.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+                <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+                <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/React.png" alt="" class="skills-logo" />
+                <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Vite.png" alt="" class="skills-logo" />
+                <img src="./images/stack/api.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/C++.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Java.png" alt="" class="skills-logo" />
+                <img src="./images/stack/MySQL.png" alt="" class="skills-logo" />
+            </div>
+        </div>
+
+        <!-- Education-section  -->
+        <div id="skills" class="skills-container container">
+            <div class="skill-fade-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>y 
+                    <br />
+                    Education Qualifications
+                </h2>
+
+                <div class="skill-subHeading">
+                    <p>
+                        Hi Everyone My name is Bhavesh Kushwaha recently i am pursuing my Master's Of Computer Applications I
+                        have been working on some mini or major projects atmy college.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+                        doloremque aspernatur, maiores voluptatum minus laudantium?
+                        Perspiciatis accusamus minima porro dolores necessitatibus, magni
+                        dolorem et qui veniam nulla sequi molestiae maxime.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem
+                        quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+                <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+                <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/React.png" alt="" class="skills-logo" />
+                <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+            </div>
+        </div>
+
+        <!-- Contact-Section  -->
+        <div class="contactus-form-container" id="contactme">
+            <div class="container">
+
+                <h1 class="contactus-heading">Contact me</h1>
+
+                <h3 class="contactus-sub-heading">
+                    Questions, thoughts, or just want to say hello?
+                </h3>
+
+
+                <div class="contactus-form-container">
+                    <form class="form" action="">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" />
+
+                            <input class="formfield" type="email" name="email" id=""
+                                placeholder="Enter your email address" />
+
+                            <input class="formfield" type="text" name="subject" id=""
+                                placeholder="Enter your subject" />
+
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                                placeholder="Enter your message"></textarea>
+
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- footer  -->
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Made with <span class="">❤️</span> by Bhavesh Kushwaha</div>
+
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contactme">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <a href="https://www.linkedin.com/in/bhavesh-kushwaha-4a2373227/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://github.com/BhavKush" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                        <a href="https://twitter.com/Bhavesh37154131" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+                        <a href="https://instagram.com/kush_bhavesh?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+                        <a href="mailto:kush.bhavesh15@gmail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
