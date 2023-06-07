@@ -366,7 +366,7 @@ footer{
   position:relative;
   margin-top:-1px;
   background-color: #343d68;
-  padding:5rem;
+  padding:2rem;
 }
 
 .footer-wrapper{
@@ -379,10 +379,11 @@ footer{
 
 .footer-faded-text{
   position:absolute;
-  left:60px;
-  bottom:0;color:#535c87;
+  left: 10em;
+  bottom:0.1em;
+  color:#535c87;
   user-select:none;
-  font-size:5em;
+  font-size:2em;
 }
 
 .link-wrapper{
@@ -404,4 +405,3 @@ footer{
   display:flex;
   gap:1rem;
 }
-
