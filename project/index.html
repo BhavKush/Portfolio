@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio || Mini-Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/port/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- navbar  -->
+        <div class="navbar">
+            <div>
+                <a href="../index.html" class="logo-container"><img src="images/userAsset/NavLogo.png" alt=""
+                        class="logo">
+                    <div class="logo-text">havesh Kushwaha</div>
+                </a>
+            </div>
+            <div class="nav-items">
+                <div><a href="#" onclick="openModal()" class="btn-share">Projects</a></div>
+                <div><a href="../index.html">Skills</a></div>
+                <div><a href="../index.html">Education</a></div>
+                <div><a href="../index.html">Contact Me</a></div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Component  -->
+    <div class="modal">
+        <div class="modal-header">
+            <h1>Projects</h1>
+            <div>
+                <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+            </div>
+        </div>
+        <div>
+            <h3></h3>
+            <div class="icon-container">
+                <a href="./project/index.html"><button class="btn-share btn-card">Mini Projects</button></a>
+                <!-- <button class="btn-share btn-card">Mini Projects</button> -->
+                <button class="btn-share btn-card">Major Projects</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Component Close  -->
+    <div class="overlay" onclick="closeModal()"></div>
+
+    <!-- project  -->
+    <div class="project-section">
+        <h2 class="page-header">Mini-Projects</h2>
+        <div class="project-container">
+
+            <div class="col">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/api.svg" alt="" />
+
+                        </div>
+                        <h2 class="project-heading">DevDetective</h2>
+                        <div class="project-subHeading">It is an application which is used to search any developer over
+                            GitHub and get all the information related to searched Developer.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day6/DevDetective%20Application"
+                                target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://bhavkush.github.io/50DaysOfWebDevelopment/Day6/DevDetective%20Application/index.html"
+                                target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-right">02</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+
+                        </div>
+                        <h2 class="project-heading">Razorpay Clone</h2>
+                        <div class="project-subHeading">An one of the best payment platform Razorpay frontend clone using popular 
+                            CSS framework i.e. Tailwind.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day8/Razorpay-Clone"
+                                target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://bhavkush.github.io/50DaysOfWebDevelopment/Day8/Razorpay-Clone/index.html"
+                                target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/api.svg" alt="" />
+                        </div>
+                        <h2 class="project-heading">Weather Application</h2>
+                        <div class="project-subHeading">A website to get instant weather result about across Globe. 
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day4/Weather%20App"
+                                target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://bhavkush.github.io/50DaysOfWebDevelopment/Day4/Weather%20App/index.html"
+                                target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-right">04</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+
+                        </div>
+                        <h2 class="project-heading">Password Generator</h2>
+                        <div class="project-subHeading">A webpage which creates a strong Password for you, as per your Customization.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day3/Password%20Generator"
+                                target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://bhavkush.github.io/50DaysOfWebDevelopment/Day3/Password%20Generator/index.html"
+                                target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- footer  -->
+    
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-faded-text">Made with <span class=""> ❤️ </span> by Bhavesh Kushwaha</div>
+
+                <div class="link-wrapper">
+                    <div>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div>
+                        <a href="#skills">Skills</a>
+                    </div>
+                    <div>
+                        <a href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="icon-wrapper">
+                    <a href="https://www.linkedin.com/in/bhavesh-kushwaha-4a2373227/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                    <a href="https://github.com/BhavKush" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                    <a href="https://twitter.com/Bhavesh37154131" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+                    <a href="https://instagram.com/kush_bhavesh?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+                    <a href="mailto:kush.bhavesh15@gmail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

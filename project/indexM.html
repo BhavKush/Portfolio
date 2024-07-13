@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio || Major-Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/port/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- navbar  -->
+      <div class="navbar">
+        <div>
+          <a href="../index.html" class="logo-container"
+            ><img src="images/userAsset/NavLogo.png" alt="" class="logo" />
+            <div class="logo-text">havesh Kushwaha</div>
+          </a>
+        </div>
+        <div class="nav-items">
+          <div>
+            <a href="#" onclick="openModal()" class="btn-share">Projects</a>
+          </div>
+          <div><a href="../index.html">Skills</a></div>
+          <div><a href="../index.html">Education</a></div>
+          <div><a href="../index.html">Contact Me</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Component  -->
+    <div class="modal">
+      <div class="modal-header">
+        <h1>Projects</h1>
+        <div>
+          <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+        </div>
+      </div>
+      <div>
+        <h3></h3>
+        <div class="icon-container">
+          <a href="./project/index.html"
+            ><button class="btn-share btn-card">Mini Projects</button></a
+          >
+          <!-- <button class="btn-share btn-card">Mini Projects</button> -->
+          <button class="btn-share btn-card">Major Projects</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Component Close  -->
+    <div class="overlay" onclick="closeModal()"></div>
+
+    <!-- project  -->
+    <div class="project-section">
+      <h2 class="page-header">Major-Projects</h2>
+      <div class="project-container">
+        <div class="col">
+          <div class="project-card" id="projectM1">
+            <div class="project-number project-number-right">01</div>
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Express.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NodeJs.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/MongoDB.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vite.png"
+                  alt=""
+                />
+              </div>
+              <h2 class="project-heading">BroStay - Holiday Homes</h2>
+              <div class="project-subHeading">
+                BroStay is a peer-to-peer online marketplace that allows people
+                to rent out their homes or apartments to travelers for
+                short-term stays.
+              </div>
+              <div class="btn-grp">
+                <button class="btn-pink btn-project">
+                  <a
+                    href="https://docs.google.com/document/d/1uGLHfxOlfeRWOdon4IZuwtEOWpwxNT7R/edit?usp=share_link&ouid=103562216364336574267&rtpof=true&sd=true"
+                    >Read More</a
+                  >
+                </button>
+                <a href="https://github.com/BhavKush/BroStay_Web-Application">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-faded-text">
+            Made with <span class=""> ❤️ </span> by Bhavesh Kushwaha
+          </div>
+
+          <div class="link-wrapper">
+            <div>
+              <a href="#projects">Projects</a>
+            </div>
+            <div>
+              <a href="#skills">Skills</a>
+            </div>
+            <div>
+              <a href="#contactme">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="icon-wrapper">
+            <a
+              href="https://www.linkedin.com/in/bhavesh-kushwaha-4a2373227/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin icon"></i
+            ></a>
+            <a href="https://github.com/BhavKush" target="_blank"
+              ><i class="fa-brands fa-github icon"></i
+            ></a>
+            <a href="https://twitter.com/Bhavesh37154131" target="_blank"
+              ><i class="fa-brands fa-twitter icon"></i
+            ></a>
+            <a
+              href="https://instagram.com/kush_bhavesh?igshid=ZDdkNTZiNTM="
+              target="_blank"
+              ><i class="fa-brands fa-instagram icon"></i
+            ></a>
+            <a href="mailto:kush.bhavesh15@gmail.com" target="_blank"
+              ><i class="fa-regular fa-envelope icon"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

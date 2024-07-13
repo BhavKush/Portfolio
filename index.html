@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="images/port/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <div class="navbar">
+        <div>
+          <a href="./index.html" class="logo-container"><img src="images/userAsset/NavLogo.png" alt="" class="logo" />
+            <div class="logo-text">havesh Kushwaha</div>
+          </a>
+        </div>
+        <div class="nav-items">
+          <div>
+            <a href="#" onclick="openModal()" class="btn-share">Projects</a>
+          </div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="#education">Education</a></div>
+          <div><a href="#contactme">Contact Me</a></div>
+        </div>
+      </div>
+
+      <!-- Modal Component  -->
+      <div class="modal">
+        <div class="modal-header">
+          <h1>Projects</h1>
+          <div>
+            <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+          </div>
+        </div>
+        <div>
+          <h3></h3>
+          <div class="icon-container">
+            <a href="./project/index.html"><button class="btn-share btn-card">Mini Projects</button></a>
+            <!-- <button class="btn-share btn-card">Mini Projects</button> -->
+            <button class="btn-share btn-card">Major Projects</button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Component Close  -->
+      <div class="overlay" onclick="closeModal()"></div>
+
+      <!-- Hero-Section -->
+      <div class="hero-section">
+        <div class="absolute faded-text">Bhavesh Kushwaha</div>
+        <div class="hero-section-left">
+          <div class="hero-section-heading">
+            Hi<img alt="waving-hand" src="https://jigarsable.vercel.app/_next/static/media/waving-hand.1da6fc7a.gif"
+              width="40" height="40" decoding="async" data-nimg="1" loading="lazy" style="color: transparent" />
+          </div>
+
+          <div class="hero-section-heading hero-section-sub-heading">
+            I am a <span class="role"></span>
+          </div>
+
+          <div class="hero-section-description">
+            Aspiring Software Developer seeking a challenging role to leverage my MCA degree and technical skills.
+          </div>
+
+            <a href="https://drive.google.com/drive/folders/1APQR8H3Z6t5OVBpk92hOyCzVU7v0q442?usp=share_link"
+              target="_blank">
+              <button class="btn-pink">Hire Me</button></button>
+            </a>
+
+        </div>
+        <div class="hero-section-right">
+          <div class="absolute icons icon-dot">
+            <img src="images/userAsset/dots.png" alt="" />
+          </div>
+          <div class="absolute icons icon-cube">
+            <img src="images/userAsset/cube.png" alt="" />
+          </div>
+          <div class="absolute icons icon-circle">
+            <img src="images/userAsset/circle.png" alt="" />
+          </div>
+          <div class="absolute icons icon-zigzag">
+            <img src="images/userAsset/zigzags.png" alt="" />
+          </div>
+          <div class="absolute icons icon-plus">
+            <img src="images/userAsset/plus.png" alt="" />
+          </div>
+          <div class="user-image">
+            <img src="images/userAsset/UserImage.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project-section  -->
+    <div class="project-section">
+      <h2 class="page-header">Projects</h2>
+      <div class="project-container">
+        <div class="project-card" id="project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container">
+              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+              <img class="project-skill" src="./images/stack/Express.png" alt="" />
+              <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+              <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+              <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+              <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+              <img class="project-skill" src="./images/stack/Vite.png" alt="" />
+            </div>
+            <h2 class="project-heading">BroStay - Holiday Homes</h2>
+            <div class="project-subHeading">
+              BroStay is a peer-to-peer online marketplace that allows people
+              to rent out their homes or apartments to travelers for
+              short-term stays.
+            </div>
+            <div class="btn-grp">
+              
+                <a target="_blank"
+                  href="https://docs.google.com/document/d/1uGLHfxOlfeRWOdon4IZuwtEOWpwxNT7R/edit?usp=share_link&ouid=103562216364336574267&rtpof=true&sd=true"><button class="btn-pink btn-project">Read
+                    More</button></a>
+              <a target="_blank" href="https://github.com/BhavKush/BroStay_Web-Application">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a target="_blank" href="https://poetic-kheer-5db13b.netlify.app/">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skill-container">
+              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+              <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+              <img class="project-skill" src="./images/stack/api.svg" alt="" />
+            </div>
+            <h2 class="project-heading">Weather Forecasting</h2>
+            <p class="project-sub-heading">
+              A platform to find Weather infromation of selected location
+              either <br />
+              by GPS or manually entered location.
+            </p>
+            <div class="btn-group">
+                <a target="_blank"
+                  href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day4/Weather%20App"> <button class="btn-pink btn-project">Read More</button></a> &nbsp;
+              <a target="_blank" href="https://github.com/BhavKush/50DaysOfWebDevelopment/tree/main/Day4/Weather%20App">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>&nbsp;
+              <a target="_blank" target="_blank" href="https://weather-forecast-web-application-seven.vercel.app/">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>&nbsp;
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                        </div>
+
+                        <h2 class="project-heading">Olympus Clone</h2>
+                        <p class="project-sub-heading">
+                            A front-end clone website of the Olympus.<br>Olympus is building OHM, a community-owned,
+                            decentralized <br>and censorship-resistant reserve
+                            currency that is asset-backed,<br> deeply liquid and used
+                            widely across Web3.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>&nbsp;
+                            <a target="_blank" href="https://github.com/BhavKush/Olympus-Front-End-project">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>&nbsp;
+                            </a>
+                            <a target="_blank" href="https://olympus-front-end-project.vercel.app/">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>&nbsp;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                        </div>
+                        <h2 class="project-heading">Granit</h2>
+                        <p class="project-sub-heading">
+                            A architectural website to plan your building or home (Hebrew
+                            Language)
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+      </div>
+    </div>
+
+    <!-- Skill-Sectionn  -->
+    <div id="skills" class="skills-container container">
+      <div class="skill-fade-text">Skills</div>
+      <div class="skill-container-left">
+        <h2 class="skill-heading">
+          <span class="caps">M</span>e and
+          <br />
+          MyTech Stack
+        </h2>
+
+        <div class="skill-subHeading">
+          <p>
+            I am Bhavesh Kushwaha, a dedicated computer science student currently pursuing a Master of Computer
+            Application. Hailing from Aligarh, Uttar Pradesh, I have developed a strong foundation in programming
+            languages such as C++, SQL, and Javascript. Additionally, I have acquired proficiency in Software
+            Development methodologies.
+          </p>
+          <p>
+            My academic journey has honed my problem-solving and critical thinking skills, which I have further
+            sharpened through hands-on experience with numerous mini-projects and a substantial group project undertaken
+            during my undergraduate years.
+          </p>
+          <p>
+            Beyond the technical realm, I maintain a keen interest in staying abreast of the latest technological
+            advancements and exploring new programming languages. With a passion for software engineering, I am eager to
+            leverage my skills and knowledge to contribute meaningfully to the success of an organization.
+          </p>
+        </div>
+      </div>
+
+      <div class="skill-container-right">
+        <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+        <img src="./images/stack/HTML.png" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/CSS.png" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/React.png" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />&nbsp;
+        <!-- <img src="./images/stack/Next.svg" alt="" class="skills-logo" /> -->
+        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />&nbsp; 
+        <!-- <img src="./images/stack/Express.png" alt="" class="skills-logo" />&nbsp;  -->
+        <img src="./images/stack/Git.svg" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/Github.svg" alt="" class="skills-logo" />&nbsp; 
+        <!-- <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" /> -->
+        <img src="./images/stack/Vite.png" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/api.svg" alt="" class="skills-logo" />&nbsp; 
+        <img src="./images/stack/C++.png" alt="" class="skills-logo" />&nbsp; 
+        <!-- <img src="./images/stack/Java.png" alt="" class="skills-logo" /> -->
+        <img src="./images/stack/MySQL.png" alt="" class="skills-logo" />&nbsp; 
+      </div>
+    </div>
+
+    <!-- Education-section  -->
+    <div id="skills" class="skills-container container">
+      <div class="skill-fade-text">Education</div>
+      <div class="skill-container-left">
+        <h2 class="skill-heading">
+          <span class="caps">M</span>y
+          <br />
+          Education Qualifications
+        </h2>
+
+        <div class="skill-subHeading">
+          <p>
+            I have consistently demonstrated a strong academic performance throughout my educational journey. I
+            completed my secondary education at <a id="academic_link" href="https://www.sjdschool.org/">
+              SJD Memorial Public School, Aligarh</a>, affiliated with the CISCE Board, where I
+            achieved a commendable overall CGPA of 6.31. Building on this foundation, I pursued higher secondary
+            education with a specialization in PCM at the same institution, securing a notable overall CGPA of 7.23.
+          </p>
+          <p>
+            My keen interest in computer science led me to pursue a Bachelor of Computer Applications (BCA) at <a
+              id="academic_link" href="https://iimtaligarh.com/"> Institute of Information Management and Technology,
+              Aligarh</a>,
+            affiliated with <a id="academic_link" href="http://www.dbrau.org.in/"> DR. B.R. Ambedkar University,
+              Agra</a>. During the
+            three-year program, I immersed myself in various computer science
+            domains, ultimately developing a passion for web development. I successfully completed the BCA program with
+            an overall CGPA of 8.2.
+          </p>
+          <p>
+            Driven by a desire to further enhance my knowledge and skills, I enrolled in the Master of Computer
+            Applications (MCA) program at <a id="academic_link" href="https://vitbhopal.ac.in/"> Vellore Institute of
+              Technology</a>. In my
+            first year, I achieved a CGPA of 8.0, demonstrating my ability to excel in a challenging academic
+            environment.
+
+          </p>
+          <p>
+            With a solid academic background and a deep-rooted passion for computer science, I am eager to explore new
+            challenges, expand my skill set, and contribute meaningfully to the field of technology.
+          </p>
+        </div>
+      </div>
+
+      <div class="skill-container-right" id="education">
+        <main class="row">
+          <section class="col">
+            <div class="contents">
+              <div class="box">
+                <h3>Master of Computer Applications</h3>
+                <h4>2022-2024</h4>
+                <p>
+                  <a href="https://vit.ac.in/" target="_blank">Vellore Institute of Technology, Bhopal</a>
+                </p>
+                <h4>8.0/10.0</h4>
+              </div>
+              <div class="box">
+                <h3>Bachelor of Computer Applications</h3>
+                <h4>2019-2022</h4>
+                <p>
+                  <a href="https://iimtaligarh.com/" target="_blank">Institute of Information Management & Technology,
+                    Aligarh</a>
+                </p>
+                <h4>8.2/10.0</h4>
+              </div>
+              <div class="box">
+                <h3>Senior Secondary School</h3>
+                <h4>2017-2019</h4>
+                <p>
+                  <a href="https://www.sjdschool.org/" target="_blank">SJD Memorial Public School, Aligarh</a>
+                </p>
+                <h4>7.2/10.0</h4>
+              </div>
+              <div class="box">
+                <h3>Secondary School</h3>
+                <h4>2016-2017</h4>
+                <p>
+                  <a href="https://www.sjdschool.org/" target="_blank">SJD Memorial Public School, Aligarh</a>
+                </p>
+                <h4>6.3/10.0</h4>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <!-- Contact-Section  -->
+    <div class="contactus-form-container" id="contactme">
+      <div class="container">
+        <h1 class="contactus-heading">Contact me</h1>
+
+        <h3 class="contactus-sub-heading">
+          Questions, thoughts, or just want to say hello?
+        </h3>
+
+        <div class="contactus-form-container">
+          <form class="form" action="">
+            <div class="formfield-container">
+              <input class="formfield" type="text" name="name" id="name" placeholder="Enter your name" required />
+
+              <input class="formfield" type="email" name="email" id="email" placeholder="Enter your email address"
+                required />
+
+              <input class="formfield" type="text" name="subject" id="subject" placeholder="Enter your subject" />
+
+              <textarea name="message" id="message" cols="30" rows="10" class="formfield formfield-textarea"
+                placeholder="Enter your message" required></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn-pink" id="submit-btn">
+                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-faded-text">
+            &nbsp; &nbsp; &nbsp;  © 2024. All rights reserved by Bhavesh Kushwaha
+          </div>
+
+          <div class="link-wrapper">
+            <div>
+              <a href="#projects">Projects</a>
+            </div>
+            <div>
+              <a href="#skills">Skills</a>
+            </div>
+            <div>
+              <a href="#contactme">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="icon-wrapper">
+            <a href="https://www.linkedin.com/in/bhavesh-kushwaha-4a2373227/" target="_blank"><i
+                class="fa-brands fa-linkedin icon"></i></a>
+            <a href="https://github.com/BhavKush" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+            <a href="https://twitter.com/Bhavesh37154131" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+            <a href="https://instagram.com/kush_bhavesh?igshid=ZDdkNTZiNTM=" target="_blank"><i
+                class="fa-brands fa-instagram icon"></i></a>
+            <a href="mailto:kush.bhavesh15@gmail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  </script>
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
