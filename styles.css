@@ -514,7 +514,7 @@ a {
     line-height: 3rem;
   }
   .project-subHeading{
-    width: 70%;
+    width: 90%;
     font-size: 16px;
     font-style: italic;
   }
@@ -554,7 +554,7 @@ a {
     background-image: url(./images/projects/project_2i.png);
 }
 #project3{
-    background-image: url(./images/projects/Project_3.png);
+    background-image: url(./images/projects/project_3.png);
 }
 #project4{
     margin-left: 120px;
